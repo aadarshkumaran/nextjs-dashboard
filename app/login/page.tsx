@@ -2,6 +2,11 @@ import AcmeLogo from "../ui/acme-logo";
 import LoginForm from "../ui/login-form";
 import { lusitana } from '../ui/fonts';
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+    title:'Login'
+}
 
 export default function Login(){
     return<>

@@ -1,5 +1,14 @@
 import '@/app/ui/global.css'
 import {inter} from '@/app/ui/fonts'
+import { Metadata } from 'next';
+
+export const metadata : Metadata = {
+  title:{
+    template : '%s | Acme Dashboard',
+    default : 'Acme Dashboard'
+  },
+  description:'Official nextjs course dashboard, built with app router'
+}
 
 export default function RootLayout({
   children,
